@@ -1,0 +1,46 @@
+{
+  "bot": {
+    "prefix": "!",
+    "status": "🏁 ZingSpeed Quiz"
+  },
+  "quiz": {
+    "default_questions_count": 10,
+    "default_time_per_question": 20,
+    "min_questions": 5,
+    "max_questions": 50,
+    "min_time": 10,
+    "max_time": 60,
+    "countdown_duration": 10,
+    "results_display_duration": 5,
+    "max_active_quizzes_per_server": 1
+  },
+  "roles": {
+    "quiz_master": "Quiz Master",
+    "quiz_champion": "Quiz Champion"
+  },
+  "rewards": {
+    "top_1": {
+      "coins": 1000,
+      "role": "Quiz Champion"
+    },
+    "top_2": {
+      "coins": 500
+    },
+    "top_3": {
+      "coins": 250
+    }
+  },
+  "categories": {
+    "vehicles": "Xe cộ",
+    "maps": "Bản đồ",
+    "gameplay": "Lối chơi",
+    "items": "Vật phẩm",
+    "history": "Lịch sử game",
+    "mixed": "Tổng hợp"
+  },
+  "logging": {
+    "level": "INFO",
+    "max_file_size": "10m",
+    "max_files": "7d"
+  }
+}
